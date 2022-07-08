@@ -1,0 +1,774 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "scaper",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "field_recording",
+            "source_file": "audio/background/field_recording\\0_S4A06767_20190323_100102.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 10.0,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "esc50",
+            "source_file": "audio/background/esc50\\1-7974-A-49.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 10.0,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "esc50",
+            "source_file": "audio/background/esc50\\1-5996-A-6.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 10.0,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "panns_inference",
+            "source_file": "audio/background/panns_inference\\0_S4A03444_20170603_062900.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 10.0,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "esc50",
+            "source_file": "audio/background/esc50\\1-9841-A-13.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 10.0,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 0.9918977676287328,
+          "duration": 3.2014720725007813,
+          "value": {
+            "label": "librispeech",
+            "source_file": "audio/foreground/librispeech\\6295-244435-0013.flac",
+            "source_time": 0,
+            "event_time": 0.9918977676287328,
+            "event_duration": 3.799962690072151,
+            "snr": 4.422421738347515,
+            "role": "foreground",
+            "pitch_shift": 0.1730147018183783,
+            "time_stretch": 0.8425009226708997
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 2.5939637136911293,
+          "duration": 0.6594373206904924,
+          "value": {
+            "label": "scaper",
+            "source_file": "audio/foreground/scaper\\42-Human-Vocal-Voice-taxi-2_edit.wav",
+            "source_time": 0,
+            "event_time": 2.5939637136911293,
+            "event_duration": 0.806235827664399,
+            "snr": 9.08712647107981,
+            "role": "foreground",
+            "pitch_shift": 0.20439360465867207,
+            "time_stretch": 0.8179211318366114
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 3.629651886720128,
+          "duration": 2.9585370504385096,
+          "value": {
+            "label": "librispeech",
+            "source_file": "audio/foreground/librispeech\\1272-128104-0009.flac",
+            "source_time": 0,
+            "event_time": 3.629651886720128,
+            "event_duration": 3.267576515425528,
+            "snr": 7.218421405710239,
+            "role": "foreground",
+            "pitch_shift": -0.5663207094623206,
+            "time_stretch": 0.905422424378401
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 4.677173307821985,
+          "duration": 2.797667957980985,
+          "value": {
+            "label": "en_16k",
+            "source_file": "audio/foreground/en_16k\\common_voice_en_669244.wav",
+            "source_time": 0,
+            "event_time": 4.677173307821985,
+            "event_duration": 3.0343176326893646,
+            "snr": 3.780371313156161,
+            "role": "foreground",
+            "pitch_shift": -0.6068139844539422,
+            "time_stretch": 0.9220089313791999
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 5.158462944795823,
+          "duration": 3.2611987557754216,
+          "value": {
+            "label": "en_16k",
+            "source_file": "audio/foreground/en_16k\\common_voice_en_62911.wav",
+            "source_time": 0,
+            "event_time": 5.158462944795823,
+            "event_duration": 2.904,
+            "snr": 5.752507661068054,
+            "role": "foreground",
+            "pitch_shift": 0.7073549273747115,
+            "time_stretch": 1.1230023263689468
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 5.206317919289763,
+          "duration": 2.244615077512092,
+          "value": {
+            "label": "en_16k",
+            "source_file": "audio/foreground/en_16k\\common_voice_en_539059.wav",
+            "source_time": 0,
+            "event_time": 5.206317919289763,
+            "event_duration": 2.010042959487921,
+            "snr": 9.087760287848312,
+            "role": "foreground",
+            "pitch_shift": 0.695025991202781,
+            "time_stretch": 1.1167000520645243
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 6.029722328644756,
+          "duration": 1.2764105884794754,
+          "value": {
+            "label": "scaper",
+            "source_file": "audio/foreground/scaper\\42-Human-Vocal-Voice-all-aboard_edit.wav",
+            "source_time": 0,
+            "event_time": 6.029722328644756,
+            "event_duration": 1.5395691609977324,
+            "snr": 5.856759819422038,
+            "role": "foreground",
+            "pitch_shift": 0.1799603287433751,
+            "time_stretch": 0.8290699897186077
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 6.202112914303884,
+          "duration": 3.5290084236588783,
+          "value": {
+            "label": "librispeech",
+            "source_file": "audio/foreground/librispeech\\1272-128104-0000.flac",
+            "source_time": 0,
+            "event_time": 6.202112914303884,
+            "event_duration": 3.8306819614111665,
+            "snr": 4.483869372144256,
+            "role": "foreground",
+            "pitch_shift": 0.6100763551547774,
+            "time_stretch": 0.9212480856434356
+          },
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {
+        "scaper": {
+          "duration": 10.0,
+          "original_duration": 10.0,
+          "fg_path": "audio/foreground/",
+          "bg_path": "audio/background/",
+          "fg_spec": [
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ]
+          ],
+          "bg_spec": [
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.0
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.0
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.0
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.0
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.0
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ]
+          ],
+          "fg_labels": [
+            "en_16k",
+            "librispeech",
+            "scaper"
+          ],
+          "bg_labels": [
+            "esc50",
+            "field_recording",
+            "panns_inference"
+          ],
+          "protected_labels": [],
+          "sr": 44100,
+          "ref_db": -50,
+          "n_channels": 1,
+          "fade_in_len": 0.01,
+          "fade_out_len": 0.01,
+          "n_events": 8,
+          "polyphony_max": 6,
+          "polyphony_gini": 0.5679389719181868,
+          "allow_repeated_label": true,
+          "allow_repeated_source": true,
+          "reverb": 0.1,
+          "scaper_version": "1.6.5",
+          "soundscape_audio_path": "audio/soundscapes/soundscape_unimodal4.wav",
+          "isolated_events_audio_path": [],
+          "audio_path": "audio/soundscapes/soundscape_unimodal4.wav",
+          "jams_path": "audio/soundscapes/soundscape_unimodal4.jams",
+          "fix_clipping": false,
+          "peak_normalization": false,
+          "save_isolated_events": false,
+          "isolated_events_path": null,
+          "disable_sox_warnings": true,
+          "no_audio": false,
+          "txt_path": "audio/soundscapes/soundscape_unimodal4.txt",
+          "txt_sep": "\t",
+          "disable_instantiation_warnings": false,
+          "peak_normalization_scale_factor": 1.0,
+          "ref_db_change": 0,
+          "ref_db_generated": -50,
+          "quick_pitch_time": false
+        }
+      },
+      "time": 0,
+      "duration": 10.0
+    }
+  ],
+  "file_metadata": {
+    "title": "",
+    "artist": "",
+    "release": "",
+    "duration": 10.0,
+    "identifiers": {},
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {}
+}

@@ -1,0 +1,407 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "scaper",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "panns_inference",
+            "source_file": "audio/background/panns_inference\\0_S4A03444_20190503_064600.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 10.0,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "panns_inference",
+            "source_file": "audio/background/panns_inference\\0_S4A03449_20170522_173202.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 10.0,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 4.467392215004585,
+          "duration": 0.7829409088515535,
+          "value": {
+            "label": "scaper",
+            "source_file": "audio/foreground/scaper\\42-Human-Vocal-Voice-taxi-2_edit.wav",
+            "source_time": 0,
+            "event_time": 4.467392215004585,
+            "event_duration": 0.806235827664399,
+            "snr": 4.902022051708695,
+            "role": "foreground",
+            "pitch_shift": 0.9113383456290796,
+            "time_stretch": 0.9711065695500918
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 4.958329254128551,
+          "duration": 0.6792399582784572,
+          "value": {
+            "label": "scaper",
+            "source_file": "audio/foreground/scaper\\42-Human-Vocal-Voice-taxi-2_edit.wav",
+            "source_time": 0,
+            "event_time": 4.958329254128551,
+            "event_duration": 0.806235827664399,
+            "snr": 8.245383301792145,
+            "role": "foreground",
+            "pitch_shift": -0.9586611078485936,
+            "time_stretch": 0.8424829745487262
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 6.220705989866486,
+          "duration": 2.6386735926619806,
+          "value": {
+            "label": "en_16k",
+            "source_file": "audio/foreground/en_16k\\common_voice_en_18862429.wav",
+            "source_time": 0,
+            "event_time": 6.220705989866486,
+            "event_duration": 2.6800212752294925,
+            "snr": 9.547410845828802,
+            "role": "foreground",
+            "pitch_shift": 0.8297463540393228,
+            "time_stretch": 0.984571882712397
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 6.883688327053711,
+          "duration": 2.948367280073931,
+          "value": {
+            "label": "en_16k",
+            "source_file": "audio/foreground/en_16k\\common_voice_en_17285976.wav",
+            "source_time": 0,
+            "event_time": 6.883688327053711,
+            "event_duration": 2.5099971601192905,
+            "snr": 2.535574101074955,
+            "role": "foreground",
+            "pitch_shift": 0.7128972171446144,
+            "time_stretch": 1.1746496477843849
+          },
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {
+        "scaper": {
+          "duration": 10.0,
+          "original_duration": 10.0,
+          "fg_path": "audio/foreground/",
+          "bg_path": "audio/background/",
+          "fg_spec": [
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ]
+          ],
+          "bg_spec": [
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.0
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.0
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ]
+          ],
+          "fg_labels": [
+            "en_16k",
+            "librispeech",
+            "scaper"
+          ],
+          "bg_labels": [
+            "esc50",
+            "field_recording",
+            "panns_inference"
+          ],
+          "protected_labels": [],
+          "sr": 44100,
+          "ref_db": -50,
+          "n_channels": 1,
+          "fade_in_len": 0.01,
+          "fade_out_len": 0.01,
+          "n_events": 4,
+          "polyphony_max": 2,
+          "polyphony_gini": 0.3971824153440918,
+          "allow_repeated_label": true,
+          "allow_repeated_source": true,
+          "reverb": 0.1,
+          "scaper_version": "1.6.5",
+          "soundscape_audio_path": "audio/soundscapes/soundscape_unimodal1.wav",
+          "isolated_events_audio_path": [],
+          "audio_path": "audio/soundscapes/soundscape_unimodal1.wav",
+          "jams_path": "audio/soundscapes/soundscape_unimodal1.jams",
+          "fix_clipping": false,
+          "peak_normalization": false,
+          "save_isolated_events": false,
+          "isolated_events_path": null,
+          "disable_sox_warnings": true,
+          "no_audio": false,
+          "txt_path": "audio/soundscapes/soundscape_unimodal1.txt",
+          "txt_sep": "\t",
+          "disable_instantiation_warnings": false,
+          "peak_normalization_scale_factor": 1.0,
+          "ref_db_change": 0,
+          "ref_db_generated": -50,
+          "quick_pitch_time": false
+        }
+      },
+      "time": 0,
+      "duration": 10.0
+    }
+  ],
+  "file_metadata": {
+    "title": "",
+    "artist": "",
+    "release": "",
+    "duration": 10.0,
+    "identifiers": {},
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {}
+}

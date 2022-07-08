@@ -1,0 +1,613 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "scaper",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "panns_inference",
+            "source_file": "audio/background/panns_inference\\0_S4A06767_20190428_152002.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 10.0,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "field_recording",
+            "source_file": "audio/background/field_recording\\0_S4A06762_20190411_115802.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 10.0,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "field_recording",
+            "source_file": "audio/background/field_recording\\0_S4A06767_20190414_133502.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 10.0,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 0.0,
+          "duration": 10.0,
+          "value": {
+            "label": "field_recording",
+            "source_file": "audio/background/field_recording\\0_S4A06767_20190414_133502.wav",
+            "source_time": 0,
+            "event_time": 0,
+            "event_duration": 10.0,
+            "snr": 0,
+            "role": "background",
+            "pitch_shift": null,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 1.1725540137345134,
+          "duration": 3.6183714580890376,
+          "value": {
+            "label": "librispeech",
+            "source_file": "audio/foreground/librispeech\\6295-244435-0008.flac",
+            "source_time": 0,
+            "event_time": 1.1725540137345134,
+            "event_duration": 3.8462033780274103,
+            "snr": 4.602709903704117,
+            "role": "foreground",
+            "pitch_shift": 0.2501908510878075,
+            "time_stretch": 0.940764463668268
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 2.9025587056065403,
+          "duration": 3.1053169955500186,
+          "value": {
+            "label": "librispeech",
+            "source_file": "audio/foreground/librispeech\\6295-244435-0018.flac",
+            "source_time": 0,
+            "event_time": 2.9025587056065403,
+            "event_duration": 3.4376068507330135,
+            "snr": 8.771827084111097,
+            "role": "foreground",
+            "pitch_shift": -0.3472636596066023,
+            "time_stretch": 0.9033368649727529
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 3.208034807637483,
+          "duration": 0.9350262264540752,
+          "value": {
+            "label": "scaper",
+            "source_file": "audio/foreground/scaper\\42-Human-Vocal-Voice-taxi-2_edit.wav",
+            "source_time": 0,
+            "event_time": 3.208034807637483,
+            "event_duration": 0.806235827664399,
+            "snr": 6.500274761233329,
+            "role": "foreground",
+            "pitch_shift": 0.5785331388216945,
+            "time_stretch": 1.1597428374806558
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 4.403527350952016,
+          "duration": 3.0383153348984253,
+          "value": {
+            "label": "librispeech",
+            "source_file": "audio/foreground/librispeech\\6295-244435-0018.flac",
+            "source_time": 0,
+            "event_time": 4.403527350952016,
+            "event_duration": 2.5707097799104806,
+            "snr": 6.8411497317192245,
+            "role": "foreground",
+            "pitch_shift": 0.24733851932049689,
+            "time_stretch": 1.1818974505182098
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 5.6573195727830585,
+          "duration": 4.3426804272169415,
+          "value": {
+            "label": "librispeech",
+            "source_file": "audio/foreground/librispeech\\1272-128104-0000.flac",
+            "source_time": 0,
+            "event_time": 5.6573195727830585,
+            "event_duration": 3.962712159926776,
+            "snr": 3.2414715372675245,
+            "role": "foreground",
+            "pitch_shift": -0.11941984998287913,
+            "time_stretch": 1.0958859114554478
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 5.673861028315974,
+          "duration": 2.585964767860548,
+          "value": {
+            "label": "librispeech",
+            "source_file": "audio/foreground/librispeech\\1272-128104-0012.flac",
+            "source_time": 0,
+            "event_time": 5.673861028315974,
+            "event_duration": 3.147036104912823,
+            "snr": 7.264146589231105,
+            "role": "foreground",
+            "pitch_shift": -0.26641717812775334,
+            "time_stretch": 0.8217143628646685
+          },
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {
+        "scaper": {
+          "duration": 10.0,
+          "original_duration": 10.0,
+          "fg_path": "audio/foreground/",
+          "bg_path": "audio/background/",
+          "fg_spec": [
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "truncnorm",
+                5.0,
+                2.0,
+                0.0,
+                10.0
+              ],
+              [
+                "uniform",
+                1.5,
+                4.0
+              ],
+              [
+                "uniform",
+                2,
+                10
+              ],
+              "foreground",
+              [
+                "uniform",
+                -1.0,
+                1.0
+              ],
+              [
+                "uniform",
+                0.8,
+                1.2
+              ]
+            ]
+          ],
+          "bg_spec": [
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.0
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.0
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.0
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ],
+            [
+              [
+                "choose",
+                []
+              ],
+              [
+                "choose",
+                []
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                10.0
+              ],
+              [
+                "const",
+                0
+              ],
+              "background",
+              null,
+              null
+            ]
+          ],
+          "fg_labels": [
+            "en_16k",
+            "librispeech",
+            "scaper"
+          ],
+          "bg_labels": [
+            "esc50",
+            "field_recording",
+            "panns_inference"
+          ],
+          "protected_labels": [],
+          "sr": 44100,
+          "ref_db": -50,
+          "n_channels": 1,
+          "fade_in_len": 0.01,
+          "fade_out_len": 0.01,
+          "n_events": 6,
+          "polyphony_max": 4,
+          "polyphony_gini": 0.6603751217384448,
+          "allow_repeated_label": true,
+          "allow_repeated_source": true,
+          "reverb": 0.1,
+          "scaper_version": "1.6.5",
+          "soundscape_audio_path": "audio/soundscapes/soundscape_unimodal3.wav",
+          "isolated_events_audio_path": [],
+          "audio_path": "audio/soundscapes/soundscape_unimodal3.wav",
+          "jams_path": "audio/soundscapes/soundscape_unimodal3.jams",
+          "fix_clipping": false,
+          "peak_normalization": false,
+          "save_isolated_events": false,
+          "isolated_events_path": null,
+          "disable_sox_warnings": true,
+          "no_audio": false,
+          "txt_path": "audio/soundscapes/soundscape_unimodal3.txt",
+          "txt_sep": "\t",
+          "disable_instantiation_warnings": false,
+          "peak_normalization_scale_factor": 1.0,
+          "ref_db_change": 0,
+          "ref_db_generated": -50,
+          "quick_pitch_time": false
+        }
+      },
+      "time": 0,
+      "duration": 10.0
+    }
+  ],
+  "file_metadata": {
+    "title": "",
+    "artist": "",
+    "release": "",
+    "duration": 10.0,
+    "identifiers": {},
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {}
+}
